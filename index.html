@@ -2,11 +2,55 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Mi web de prueba</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Taskly | Organiza tu día</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>Hola mundo</h1>
-  <p>Esta es una página web de prueba.</p>
-  <p>¡Bienvenido a mi sitio web!</p>
+
+  <header class="header">
+    <a href="#" class="logo">Taskly</a>
+    <nav>
+      <a href="#caracteristicas">Características</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Organiza tu día sin esfuerzo</h1>
+      <p>La forma más simple de gestionar tus tareas y alcanzar tus objetivos.</p>
+      <a href="#contacto" class="btn">Empieza gratis</a>
+    </section>
+
+    <section id="caracteristicas" class="features">
+      <h2>¿Por qué Taskly?</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Rápido</h3>
+          <p>Crea tareas en segundos con una interfaz limpia.</p>
+        </article>
+        <article class="card">
+          <h3>Simple</h3>
+          <p>Sin menús enrevesados. Todo lo que necesitas, nada más.</p>
+        </article>
+        <article class="card">
+          <h3>Gratis</h3>
+          <p>Empieza hoy sin tarjeta de crédito.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contacto" class="cta">
+      <h2>¿Listo para empezar?</h2>
+      <p>Déjanos tu correo y te avisamos cuando lancemos.</p>
+      <a href="mailto:tu@correo.com" class="btn">Quiero saber más</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Taskly. Todos los derechos reservados.</p>
+  </footer>
+
 </body>
 </html>
